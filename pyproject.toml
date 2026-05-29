@@ -1,0 +1,10 @@
+[project]
+name = "data-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dvc[s3]>=3.67.1",
+    "webdataset>=1.0.2",
+]
